@@ -13,7 +13,7 @@ try:
 except ImportError:
     BUSINESS_MODE = False
 try:
-    from settings import SEACLOUD_MODE
+    from seahub.settings import SEACLOUD_MODE
 except ImportError:
     SEACLOUD_MODE = False
 
